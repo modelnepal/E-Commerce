@@ -27,6 +27,12 @@ $style_css = '/style.css';
   <link rel="stylesheet" type="text/css" href="<?php echo $vendor_css; ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo $style_css; ?>">
 
+  <link href="<?php echo get_template_directory_uri(); ?>/../../../css/normalize.css" rel="stylesheet">
+
+  <link href="<?php echo get_template_directory_uri(); ?>/../../../css/vendor.css" rel="stylesheet">
+
+  ../../../
+
 
   <?php echo '
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
