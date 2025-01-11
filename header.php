@@ -1,5 +1,5 @@
 <?php
-// Include vendor CSS and main CSS dynamically
+// Dynamic CSS file paths
 $vendor_css = '/css/vendor.css';
 $style_css = '/style.css';
 ?>
@@ -23,33 +23,14 @@ $style_css = '/style.css';
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-  <!-- Vendor and custom stylesheets -->
+  <!-- Dynamic Vendor and Custom Stylesheets -->
   <link rel="stylesheet" type="text/css" href="<?php echo $vendor_css; ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo $style_css; ?>">
 
-  <link href="<?php echo get_template_directory_uri(); ?>/../../../css/normalize.css" rel="stylesheet">
-
-  <link href="<?php echo get_template_directory_uri(); ?>/../../../css/vendor.css" rel="stylesheet">
-
-  ../../../
-
-
-  <?php echo '
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/vendor.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    
-    ';
-  ?>
-
-  <!-- Vendor and custom stylesheets -->
-  <link rel="stylesheet" type="text/css" href="<?php $vendor_css = 'path/to/vendor.css'; ?>">
-  <link rel="stylesheet" type="text/css" href="<?php $style_css = 'path/to/style.css'; ?>">
+  <!-- Template Directory Stylesheets -->
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/normalize.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/vendor.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,11 +39,18 @@ $style_css = '/style.css';
     href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
 
+  <?php
+  // Enqueue Google Fonts in WordPress
 
-
+  ?>
 </head>
 
 <body>
+  <!-- Page Content -->
+
+
+
+
   <!-- Your body content goes here -->
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <defs>
@@ -354,10 +342,7 @@ $style_css = '/style.css';
     </defs>
   </svg>
 
-  <?php
-  $image_path = '/images/banner-1.jpg'
 
-    ?>
 
 
 </body>
