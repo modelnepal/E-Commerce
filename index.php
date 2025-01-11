@@ -8,9 +8,7 @@
 	
 	<div id="content"> <!-- main content area -->
 
-	
-
-		<?php if (have_posts()): ?> <!-- check if there are posts -->
+	<?php if (have_posts()): ?> <!-- check if there are posts -->
 			<?php while (have_posts()):
 				the_post(); ?> <!-- start post loop -->
 				<div class="product-item" id="post-<?php the_ID(); ?>"> <!-- single post container as product -->

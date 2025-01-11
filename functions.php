@@ -5,10 +5,10 @@
 // Enqueue styles and scripts for the WordPress theme
 function organic_enqueue_assets() {
     // Vendor CSS
-    wp_enqueue_style('vendor-css', get_template_directory_uri() . '/css/vendor.css', array(), '1.0', 'all');
+   // wp_enqueue_style('vendor-css', get_template_directory_uri() . 'css/vendor.css');
 
     // Normalize CSS
-    wp_enqueue_style('normalize-css', get_template_directory_uri() . '/css/normalize.css', array(), '1.0', 'all');
+   // wp_enqueue_style('normalize-css', get_template_directory_uri() . 'css/normalize.css');
 
     // Main style.css
     wp_enqueue_style('theme-style', get_stylesheet_uri(), array(), wp_get_theme()->get('Version'));

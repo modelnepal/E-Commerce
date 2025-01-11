@@ -1,14 +1,8 @@
-<?php
-// Dynamic CSS file paths
-$vendor_css = '/css/vendor.css';
-$style_css = '/style.css';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>Organic - Grocery Store HTML Website Template</title>
+  <title>Organic - Grocery Store HTML Website Templates</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,12 +17,8 @@ $style_css = '/style.css';
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-  <!-- Dynamic Vendor and Custom Stylesheets -->
-  <link rel="stylesheet" type="text/css" href="<?php echo $vendor_css; ?>">
-  <link rel="stylesheet" type="text/css" href="<?php echo $style_css; ?>">
-
   <!-- Template Directory Stylesheets -->
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/normalize.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/r/css/normalize.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/vendor.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
