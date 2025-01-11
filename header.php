@@ -1,7 +1,7 @@
 <?php
 // Include vendor CSS and main CSS dynamically
-$vendor_css = 'css/vendor.css';
-$style_css = 'style.css';
+$vendor_css = '/css/vendor.css';
+$style_css = '/style.css';
 ?>
 
 <!DOCTYPE html>
