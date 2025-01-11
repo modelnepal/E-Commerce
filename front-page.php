@@ -1,13 +1,14 @@
-<?php get_header();?>
+<?php get_header(); ?>
+
 <body class="index-page">
-<?php get_template_part('template-parts/navigation'); ?>
-<main class="main">
+  <?php get_template_part('template-parts/navigation'); ?>
+  <main class="main">
 
     <!-- Hero Section -->
-  <?php get_template_part('template-parts/hero-section'); ?>
+    <?php get_template_part('template-parts/hero-section'); ?>
 
     <!-- About Section -->
-  <?php get_template_part('template-parts/category'); ?>
+    <?php get_template_part('template-parts/category'); ?>
     <!-- About Section -->
 
 
@@ -39,7 +40,7 @@
 
 
     <!-- Faq Section -->
-   <?php get_template_part('partials/faq-section'); ?>
+    <?php get_template_part('partials/faq-section'); ?>
     <!-- /Faq Section -->
 
 
@@ -70,6 +71,6 @@
     <!-- Contact Section -->
     <?php get_template_part('partials/contact'); ?>
     <!-- /Contact Section -->
-</main>
+  </main>
 
-<?php get_footer(); ?>
+  <?php get_footer(); ?>
