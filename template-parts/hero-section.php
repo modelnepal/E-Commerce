@@ -1,6 +1,6 @@
 
 
-<section style="background-image: url('<?php echo $image_path; ?>'); background-repeat: no-repeat; background-size: cover;">
+<section style="background-image: url('<?php echo get_template_directory_uri(); ?>../../../images/banner-1.jpg'); background-repeat: no-repeat; background-size: cover;">
       <div class="container-lg">
         <div class="row">
           <div class="col-lg-6 pt-5 mt-5">
