@@ -1,3 +1,30 @@
+<?php
+// Query for featured products
+$args = array(
+    'post_type' => 'product',
+    'posts_per_page' => -1, // Show all products
+    'meta_query' => array(
+        array(
+            'key' => '_featured',
+            'value' => 'yes'
+        )
+    )
+);
+$featured_query = new WP_Query($args);
+
+if ($featured_query->have_posts()) : ?>
+    <div class="featured-products">
+        <?php while ($featured_query->have_posts()) : $featured_query->the_post(); ?>
+            <div class="product">
+                <h2><?php the_title(); ?></h2>
+                <?php the_post_thumbnail(); ?>
+                <p><?php the_excerpt(); ?></p>
+                <a href="<?php the_permalink(); ?>" class="btn btn-primary">View Product</a>
+            </div>
+        <?php endwhile; ?>
+    </div>
+<?php endif; wp_reset_postdata(); ?>
+
 <section id="featured-products" class="products-carousel">
   <div class="container-lg overflow-hidden py-5">
     <div class="row">
