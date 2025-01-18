@@ -92,7 +92,7 @@
           slidesPerView: 5, // Show 5 items on tablets
         },
         1024: {
-          slidesPerView: 7, // Show 7 items on desktops
+          slidesPerView: 10, // Show 7 items on desktops
         },
       },
     });

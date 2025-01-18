@@ -17,13 +17,21 @@
 
     <!-- Footer credit Menu -->
 
+    <div id="footer">
 
+        <p>&copy; Copyright <?php bloginfo('name'); ?> <?php echo date('Y'); ?>.
+            Designed by <a href="<?php echo esc_url(home_url()); ?>"
+                title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a> | Developer <a
+                href="<?php echo esc_url(home_url()); ?>"
+                title="Shane Strong - Lansing Web Design"><?php bloginfo('name'); ?></a></p>
+
+    </div>
 </footer>
 <?php wp_footer(); ?>
 
 <style>
     #footer {
-        padding: 15px;
+        padding: 20px;
         text-align: center;
         font-family: Arial, sans-serif;
         color: #333;

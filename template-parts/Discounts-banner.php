@@ -5,7 +5,7 @@
 
             <div class="banner-blocks">
             
-              <div class="banner-ad d-flex align-items-center large bg-info block-1" style="background: url('images/banner-ad-1.jpg') no-repeat; background-size: cover;">
+              <div class="banner-ad d-flex align-items-center large bg-info block-1" style="background: url('<?php echo get_template_directory_uri(); ?>/images/banner-ad-1.jpg') no-repeat; background-size: cover;">
                 <div class="banner-content p-5">
                   <div class="content-wrapper text-light">
                     <h3 class="banner-title text-light">Items on SALE</h3>
@@ -15,7 +15,7 @@
                 </div>
               </div>
               
-              <div class="banner-ad bg-success-subtle block-2" style="background:url('images/banner-ad-2.jpg') no-repeat;background-size: cover">
+              <div class="banner-ad bg-success-subtle block-2" style="background:url('<?php echo get_template_directory_uri(); ?>/images/banner-ad-2.jpg') no-repeat;background-size: cover">
                 <div class="banner-content align-items-center p-5">
                   <div class="content-wrapper text-light">
                     <h3 class="banner-title text-light">Combo offers</h3>
@@ -25,7 +25,7 @@
                 </div>
               </div>
 
-              <div class="banner-ad bg-danger block-3" style="background:url('images/banner-ad-3.jpg') no-repeat;background-size: cover">
+              <div class="banner-ad bg-danger block-3" style="background:url('<?php echo get_template_directory_uri(); ?>/images/banner-ad-3.jpg') no-repeat;background-size: cover">
                 <div class="banner-content align-items-center p-5">
                   <div class="content-wrapper text-light">
                     <h3 class="banner-title text-light">Discount Coupons</h3>

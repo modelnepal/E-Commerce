@@ -27,7 +27,7 @@
                 <div class="product-item swiper-slide">
                   <figure>
                     <a href="index.html" title="Product Title">
-                      <img src="images/product-thumb-20.png" alt="Product Thumbnail" class="tab-image">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/product-thumb-20.png" alt="Product Thumbnail" class="tab-image">
                     </a>
                   </figure>
                   <div class="d-flex flex-column text-center">
@@ -60,7 +60,7 @@
                 <div class="product-item swiper-slide">
                   <figure>
                     <a href="index.html" title="Product Title">
-                      <img src="images/product-thumb-1.png" alt="Product Thumbnail" class="tab-image">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/product-thumb-1.png" alt="Product Thumbnail" class="tab-image">
                     </a>
                   </figure>
                   <div class="d-flex flex-column text-center">
@@ -93,7 +93,7 @@
                 <div class="product-item swiper-slide">
                   <figure>
                     <a href="index.html" title="Product Title">
-                      <img src="images/product-thumb-21.png" alt="Product Thumbnail" class="tab-image">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/product-thumb-21.png" alt="Product Thumbnail" class="tab-image">
                     </a>
                   </figure>
                   <div class="d-flex flex-column text-center">
@@ -126,7 +126,7 @@
                 <div class="product-item swiper-slide">
                   <figure>
                     <a href="index.html" title="Product Title">
-                      <img src="images/product-thumb-22.png" alt="Product Thumbnail" class="tab-image">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/product-thumb-22.png" alt="Product Thumbnail" class="tab-image">
                     </a>
                   </figure>
                   <div class="d-flex flex-column text-center">
@@ -159,7 +159,7 @@
                 <div class="product-item swiper-slide">
                   <figure>
                     <a href="index.html" title="Product Title">
-                      <img src="images/product-thumb-23.png" alt="Product Thumbnail" class="tab-image">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/product-thumb-23.png" alt="Product Thumbnail" class="tab-image">
                     </a>
                   </figure>
                   <div class="d-flex flex-column text-center">
@@ -192,7 +192,7 @@
                 <div class="product-item swiper-slide">
                   <figure>
                     <a href="index.html" title="Product Title">
-                      <img src="images/product-thumb-10.png" alt="Product Thumbnail" class="tab-image">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/product-thumb-10.png" alt="Product Thumbnail" class="tab-image">
                     </a>
                   </figure>
                   <div class="d-flex flex-column text-center">
@@ -225,7 +225,7 @@
                 <div class="product-item swiper-slide">
                   <figure>
                     <a href="index.html" title="Product Title">
-                      <img src="images/product-thumb-11.png" alt="Product Thumbnail" class="tab-image">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/product-thumb-11.png" alt="Product Thumbnail" class="tab-image">
                     </a>
                   </figure>
                   <div class="d-flex flex-column text-center">
@@ -258,7 +258,7 @@
                 <div class="product-item swiper-slide">
                   <figure>
                     <a href="index.html" title="Product Title">
-                      <img src="images/product-thumb-12.png" alt="Product Thumbnail" class="tab-image">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/product-thumb-12.png" alt="Product Thumbnail" class="tab-image">
                     </a>
                   </figure>
                   <div class="d-flex flex-column text-center">
@@ -291,7 +291,7 @@
                 <div class="product-item swiper-slide">
                   <figure>
                     <a href="index.html" title="Product Title">
-                      <img src="images/product-thumb-13.png" alt="Product Thumbnail" class="tab-image">
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/product-thumb-13.png" alt="Product Thumbnail" class="tab-image">
                     </a>
                   </figure>
                   <div class="d-flex flex-column text-center">
