@@ -9,6 +9,11 @@
 <?php get_template_part('template-parts/category'); ?>
 <!-- category Section -->
 
+
+
+
+
+
 <?php get_template_part('template-parts/Best-selling-products'); ?>
 
 
