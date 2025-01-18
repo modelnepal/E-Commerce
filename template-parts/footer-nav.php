@@ -22,26 +22,6 @@
       animation: fadeIn 1s ease-in-out forwards;
     }
 
-    .footer-section:nth-child(1) {
-      animation-delay: 0.2s;
-    }
-
-    .footer-section:nth-child(2) {
-      animation-delay: 0.4s;
-    }
-
-    .footer-section:nth-child(3) {
-      animation-delay: 0.6s;
-    }
-
-    .footer-section:nth-child(4) {
-      animation-delay: 0.8s;
-    }
-
-    .footer-section:nth-child(5) {
-      animation-delay: 1s;
-    }
-
     .footer-section h3 {
       font-size: 1.2rem;
       margin-bottom: 10px;
@@ -63,7 +43,7 @@
     }
 
     .footer-section ul li a:hover {
-      text-decoration: underline;
+      text-decoration: navy;
     }
 
     .footer-bottom {
@@ -138,13 +118,22 @@
         flex-wrap: wrap;
       }
     }
+
+    .footer-container h3 {
+      margin-bottom: 10px;
+      border-bottom: 2px solid #000;
+      /* Straight line beneath headers */
+      display: inline-block;
+      /* Shrinks the underline width */
+      padding-bottom: 5px;
+    }
   </style>
-  
+
   <div class="footer-container">
     <div class="footer-section wow fadeIn">
       <h3>PRODUCT</h3>
       <ul>
-        <li><a href="#">Why Brevo?</a></li>
+        <li><a href="#" class="btn-link">Why Brevo?</a></li>
         <li><a href="#">Email marketing</a></li>
         <li><a href="#">Transactional email</a></li>
         <li><a href="#">Wallet</a></li>
